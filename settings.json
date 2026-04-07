@@ -18,6 +18,7 @@
       "Bash(git branch --show-current)",
       "Bash(git branch --list *)",
       "Bash(git checkout -- *)",
+      "Bash(git worktree *)",
       "Bash(ls *)",
       "Bash(cat *)",
       "Bash(mkdir *)",
