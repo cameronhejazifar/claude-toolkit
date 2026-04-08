@@ -128,5 +128,6 @@ Subsequent commands include:
 /gsd:ui-phase 1
 /gsd:plan-phase 1
 /gsd:execute-phase 1
+/gsd:verify-work 1
 ...
 ```
