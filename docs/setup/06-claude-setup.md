@@ -10,6 +10,14 @@ tags:
 
 This guide covers how to configure Claude Code for the monorepo. It utilizes a root `CLAUDE.md` and then more `CLAUDE.md` files within each sub-repo for specific instructions that relate to that stack. The `api/CLAUDE.md` will get generated automatically by Laravel Boost, so we'll instead put those instructions inside the `api/.ai/guidelines` files so Boost will auto-integrate them into the generated file.
 
+## PREREQUISITE: Claude Installation
+
+Make sure you have [Claude Code](https://code.claude.com/docs/en/quickstart) installed
+
+```shell
+brew install --cask claude-code
+```
+
 ## 1. Copy files
 
 Copy the CLAUDE.md and guideline files to your project root
