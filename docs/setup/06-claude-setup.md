@@ -75,6 +75,7 @@ cd api && ./vendor/bin/sail artisan boost:update
     Install the package by running:
 
     ```shell
+    cd /path/to/project/root
     claude mcp add context7 --transport stdio --scope project -- npx -y @upstash/context7-mcp@latest
     ```
 
@@ -85,6 +86,7 @@ cd api && ./vendor/bin/sail artisan boost:update
     Clone the repo, then copy it into the project's skills directory:
 
     ```shell
+    cd /path/to/project/root
     git clone https://github.com/coleam00/excalidraw-diagram-skill.git
     mkdir -p .claude/skills
     cp -r excalidraw-diagram-skill .claude/skills/excalidraw-diagram
